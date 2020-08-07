@@ -1,0 +1,14 @@
+.email-app .email-wrapper .email-compose .email-compose-body {
+padding: 30px 20px;
+}
+container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.txt {
+  background-color: black;
+  color: white;
+}

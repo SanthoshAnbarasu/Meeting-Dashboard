@@ -1,0 +1,193 @@
+@charset "UTF-8";
+Style sheet
+
+img.avatar {
+    width:40%;
+    height: 70%;
+    border-radius: 40%;
+}
+.nav-tab>li+li {
+    margin-left: 10px;
+
+}
+.label-checkbox100{
+    color: black;
+}
+.focus-input100 {
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 0px 0px;
+    color: rgba(87,184,70, 0.8);
+}
+
+.input100:focus + .focus-input100 {
+    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+    animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes anim-shadow {
+    to {
+        box-shadow: 0px 0px 70px 25px;
+        opacity: 0;
+    }
+}
+
+@keyframes anim-shadow {
+    to {
+        box-shadow: 0px 0px 70px 25px;
+        opacity: 0;
+    }
+}
+
+.symbol-input100 {
+    font-size: 15px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    pointer-events: none;
+    color: #666666;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.input100:focus + .focus-input100 + .symbol-input100 {
+    color: #57b846;
+    padding-right: 10px;
+}
+.wrap-login100{
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px 55px;
+    background-image: url("https://buntingfamilypharmacy.com/wp-content/uploads/2019/01/50-Beautiful-and-Minimalist-Presentation-Backgrounds-031.jpg");
+    color: #ffffff;
+}
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.login100-form {
+    width: 100%;
+}
+.login100-form-logo {
+    font-size: 60px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.login100-form-title {
+    font-family: Poppins-Medium;
+    font-size: 30px;
+    color: black;
+    line-height: 2.1;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+#form_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10% 5%;
+}
+.zmdi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    text-rendering: auto;
+}
+#form-left{
+    display:grid;
+}
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid rgba(255,255,255,0.24);
+    margin-bottom: 30px;
+}
+.input100 {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: black;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 0 5px 0 38px;
+}
+
+input::placeholder {
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+::placeholder {
+    -webkit-text-security: none;
+    color: black;
+    pointer-events: none;
+}
+.contact100-form-checkbox {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+.container-login100-form-btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: black;
+}
+.txt1 {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #e5e5e5;
+    line-height: 1.5;
+}
+.p-t-90 {
+    padding-top: 90px;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
